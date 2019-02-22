@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+/*컨테이너시작*/
+#container{
+    width:100%;
+}
+
+/*메인슬라이더시작*/
+.mainSlider{
+    height:400px;
+}
+.mainSlider .inner{
+    position:relative;
+}
+.mainSlider img{
+    width:100%;
+    position:absolute;
+    left:50%;
+    margin-left:-600px;
+}
+
+/*mainRow1시작*/
+.mainRow1{
+    padding:50px 0;
+}
+
+/*1*/
+.row1Box1{
+    width:830px;
+    height:182px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.row1Box1_1{
+    width:405px;
+    height:182px;
+    float:left;
+    margin-right:20px;
+    text-align:center;
+    background:url(../../../images/operationGuide/mainRow1_1.png) no-repeat;
+}
+.row1Box1_1.margin{
+    margin-right:0;
+    background:url(../../../images/operationGuide/mainRow1_2.png) no-repeat;
+}
+.row1Box1_1 a{
+    height:100%;
+    display:block;
+}
+.row1Box1_1 a img{
+    width:100%;
+    display:block;
+}
+.row1Box1_1 a h2{
+    font-size:30px;
+    font-weight:700;
+    line-height:35px;
+    color:#404d10;
+    padding-top:59px;
+}
+
+/*2*/
+.row1Box2{
+    width:830px;
+    height:182px;
+    margin:0 auto;
+}
+.row1Box1_2{
+    width:405px;
+    height:182px;
+    float:left;
+    margin-right:20px;
+    text-align:center;
+    background:url(../../../images/operationGuide/mainRow1_3.png) no-repeat;
+}
+.row1Box1_2.margin{
+    margin-right:0;
+    background:url(../../../images/operationGuide/mainRow1_4.png) no-repeat;
+}
+.row1Box1_2 a{
+    height:100%;
+    display:block;
+}
+.row1Box1_2 a img{
+    width:100%;
+    display:block;
+}
+.row1Box1_2 a h2{
+    font-size:30px;
+    font-weight:700;
+    line-height:35px;
+    color:#404d10;
+    padding-top:59px;
+}
+
+/*mainRow2시작*/
+.mainRow2{
+    text-align:center;
+    width:1200px;
+    height:1099px;
+    background:#f9ffe2;
+    margin:0 auto;
+}
+
+/*row2Box1시작*/
+.row2Box1{}
+.row2Box1 li.row2Text1{
+    font-size:25px;
+    font-weight:700;
+    color:#404d10;
+    line-height:30px;
+    margin-bottom:108px;
+}
+.row2Box1 li.row2Title{
+    padding:70px 0;
+}
+.row2Box1 li.row2Icon{
+    padding-bottom:43px;
+}
+
+/*row2Box2시작*/
+.row2Box2{
+    font-size:0;
+}
+.row2Box2 li{
+    display:inline-block;
+    margin-right:10px;
+}
+.row2Box2 li.row2Box2Margin{
+    margin-right:0;
+}
+.row2Box2 li img{}
+
+.mainRow2 p{
+    margin-top:70px;
+    font-size:25px;
+    font-weight:700;
+    color:#404d10;
+}
+
+/*mainRow3시작*/
+.mainRow3{
+    text-align:center;
+}
+.row3Box1{}
+
+.row3Box1 li{}
+.row3Box1 li.row3Title{
+    padding:70px 0;
+}
+.row3Box1 li.row3Text{
+    font-size:32px;
+    font-weight:700;
+    color:#2c2c2c;
+}
+.row3Box1 li.row3Icon{
+    padding:34px 0;
+}
+.row3Box1 li.row3Img{
+    width:100%;
+    height:718px;
+    position:relative;
+    overflow:hidden;
+    margin:70px 0;
+}
+.row3Box1 li.row3Img img{
+    position:absolute;
+    right:50%;
+    margin-right:-960px;
+}
+
+/*mainrow4시작*/
+.mainRow4{
+    text-align:center;
+}
+.row4Box1 li.row4Title{
+    padding-bottom:70px;
+}
+
+/*mainrow5시작*/
+.mainRow5{
+    text-align:center;
+}
+
+.row5Box1{}
+.row5Box1 li{}
+.row5Box1 li.row5Title{
+    padding:70px 0;
+}
+.row5Box1 li.row5Icon{
+    padding-bottom:70px;
+}
+.row5Box1 li.row5Text{
+    background:#c9dfa1;
+    font-size:25px;
+    font-weight:400;
+    line-height:36px;
+    color:#404d10;
+    padding:48px;
+}
+.row5Box1 li.row5Text2{
+    font-size:20px;
+    font-weight:700;
+    color:#404d10;
+    line-height:30px;
+    padding:73px 0;
+}
+
+/*mainRow6시작*/
+.mainRow6{
+    text-align:center;
+    width:100%;
+    height:863px;
+    background:#f9ffe2;
+    margin-bottom:70px;
+}
+
+.row6Box1{}
+.row6Box1 li{}
+.row6Box1 li.row6Title{
+    padding:70px 0;
+}
+.row6Box1 li.row6Text{
+    font-size:25px;
+    font-weight:700;
+    line-height:30px;
+    color:#b5e75a;
+}
+.row6Box1 li.row6Text:after{
+    content:"";
+    display:block;
+    width:430px;
+    height:2px;
+    background:#b5e75a;
+    margin:0 auto;
+    margin-top:11px;
+}
+.row6Box1 li.row6Icon{
+    padding:51px 0;
+}
+.row6Box1 li.row6Text2{
+    font-size:20px;
+    font-weight:400;
+    line-height:24px;
+    color:#404d10;
+    margin-bottom:82px;
+}
+.row6Box1 li.row6Text3{
+    margin-bottom:120px;
+}
+.row6Box1 li.row6Text4{
+    font-size:15px;
+    font-weight:400;
+    line-height:24px;
+    color:#404d10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
