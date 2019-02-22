@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+/*컨테이너시작*/
+#container{
+    width:100%;
+}
+
+/*메인슬라이더시작*/
+.mainSlider{
+    height:400px;
+}
+.mainSlider .inner{
+    position:relative;
+}
+.mainSlider img{
+    width:100%;
+    position:absolute;
+    left:50%;
+    margin-left:-600px;
+}
+
+/*슬라이더텍스트시작*/
+.sliderText{
+    text-align:left;
+    color:#fff;
+    margin-left:330px;
+}
+.sliderText p{
+    padding-top:80px;
+    font-size:20px;
+    font-weight:200;
+    line-height:40px;
+    position:relative;
+}
+.sliderText p:after{
+    content:"";
+    display:block;
+    width:400px;
+    height:2px;
+    background:#fff;
+    position:absolute;
+    top:100px;
+    right:680px;
+    
+}
+.sliderText p span{
+    font-size:45px;
+    font-weight:500;
+}
+
+.sliderText p.sliderText1{
+    padding-top:30px;
+    line-height:25px;
+    font-size:15px;
+    font-weight:400;
+}
+.sliderText p.sliderText1:after{
+    content:"";
+    display:block;
+    width:517px;
+    height:2px;
+    background:#fff;
+    position:absolute;
+    top:145px;
+    right:680px;
+    
+}
+
+/*mainRow1시작*/
+.mainRow1{
+    padding:90px 0;
+    text-align:center;
+}
+.mainRow1 h2{
+    font-size:40px;
+    font-weight:700;
+    color:#2c2c2c;
+}
+.mainRow1 p{
+    font-size:23px;
+    font-weight:300;
+    margin-bottom:90px;
+}
+.row1Box{
+    width:100%;
+    height:400px;
+    background:#f1f1f1;
+    margin-top:-200px;
+}
+.row1Box p{
+    font-size:25px;
+    font-weight:400;
+    padding-top:260px;
+    color:#636363;
+}
+
+/*mainRow2시작*/
+.mainRow2{
+    padding-bottom:206px;
+}
+.mainRow2 img{}
+
+.row2Box{
+    width:613px;
+    height:359px;
+    border:solid #ffd3d8;
+    color:#2c2c2c;
+    float:right;
+    text-align:center;
+    margin-top:-250px;
+    margin-right:31px;
+}
+.row2Box h2{
+    font-size:25px;
+    font-weight:700;
+    margin-top:89px;
+}
+.row2Box p{
+    font-size:15px;
+    font-weight:400;
+    color:#5d5d5d;
+}
+.row2Box p:before{
+   content:"";
+    display:block;
+    width:30px;
+    height:3px;
+    background:#707070;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:35px;
+}
+
+/*mainRow3시작*/
+.mainRow3{
+    text-align:center;
+    padding-bottom:90px;
+    color:#2c2c2c;
+}
+.mainRow3 h2{
+    font-size:40px;
+    font-weight:700;
+}
+.mainRow3 p{
+    font-size:23px;
+    font-weight:300;
+    margin-bottom:90px;
+}
+
+.row3Box{
+    width:100%;
+    height:690px;
+    background:#f1f1f1;
+    font-size:0;
+}
+.row3Box h2{
+    font-size:25px;
+    padding:90px 0;
+}
+.row3Box li{
+    display:inline-block;
+    margin-right:20px;
+}
+.row3Box li.row3Last{
+    margin-right:0;
+}
+.row3Box li img{}
+.row3Box li p{
+    font-size:15px;
+    font-weight:400;
+    margin-top:29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

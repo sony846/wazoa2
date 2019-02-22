@@ -1,0 +1,150 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+body{
+    font-family:'NotoSans',sans-serif;
+    font-weight:300;
+}
+ul,dl,dt,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.inner{
+    width:1200px;
+    margin:0 auto;
+}
+
+/*헤더시작*/
+#header{}
+.inner{
+    position:relative;
+}
+
+/*로고시작*/
+#header h1{
+    width:126px;
+    height:154px;
+    margin:0 auto;
+    padding:40px 0;
+}
+#header h1 a{}
+#header h1 a img{
+    width:100%;
+    display:block;
+}
+
+/*gnb시작*/
+.nav{
+    border-top:1px solid #d3d3d3 ;
+}
+.gnb{
+    width:1200px;
+    margin:0 auto;
+}
+.gnb li{
+    float:left;
+    width:240px;
+    height:57px;
+    line-height:57px;
+    text-align:center;
+    font-size:17px;
+}
+.gnb li a{
+    color:#2c2c2c;
+    font-weight:400;
+}
+.gnb li a:hover{
+    color:#f6abb3;
+}
+
+/*푸터시작*/
+#footer{
+    text-align:center;
+}
+
+/*푸터내용시작*/
+.footerBg{
+    background:#f6abb3;
+}
+
+/*푸터TOP시작*/
+.footerTop{
+    border-bottom:1px solid #363636;
+    padding:30px 0;
+    color:#fff;
+}
+.footerTopText{
+    font-size:0;
+    margin-bottom:20px;
+}
+.footerTopText li{
+    display:inline-block;
+    font-weight:200;
+}
+.footerTopText li:after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#fff;
+    margin:0 15px;
+}
+.footerTopText li.none:after{
+    display:none;
+}
+.footerTopText li a{
+    font-size:15px;
+    color:#fff;
+}
+.footerTop p{
+    font-size:13px;
+    font-weight:200;
+}
+.footerTop p span{
+    font-size:8px;
+    font-weight:100;
+    vertical-align:top;
+    margin:0 10px;
+}
+.footerTop span{
+    font-size:13px;
+    font-weight:200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
